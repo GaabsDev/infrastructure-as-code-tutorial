@@ -49,7 +49,7 @@ We'll describe a Kubernetes cluster using Terraform so that we can manage it thr
 Create a directory named `terraform` inside `kubernetes` directory. Download a bundle of Terraform configuration files into the created `terraform` directory.
 
 ```bash
-$ wget https://github.com/GaabsDev/gke-terraform/raw/master/gke-terraform.zip
+$ wget https://github.com/GaabsDev/infrastructure-as-code-tutorial/blob/main/docs/gke-terraform.zip
 $ unzip gke-terraform.zip -d kubernetes/terraform
 $ rm gke-terraform.zip
 ```
