@@ -4,7 +4,7 @@ To better understand the `Infrastructure as Code` (`IaC`) concept, we will first
 
 ## Intro
 
-Imagine you have developed a new cool application called [integration](https://github.com/GaabsDev/integration).
+Imagine you have developed a new cool application called [integration](https://github.com/GaabsDev/layers).
 
 You want to run your application on a dedicated server and make it available to the Internet users.
 
@@ -84,7 +84,7 @@ $ sudo gem install --no-rdoc --no-ri bundler
 $ bundle version
 ```
 
-Clone the [application repo](https://github.com/GaabsDev/integration), but first make sure `git` is installed:
+Clone the [application repo](https://github.com/GaabsDev/layers), but first make sure `git` is installed:
 ```bash
 $ git version
 ```
@@ -94,7 +94,7 @@ At the time of writing the latest image of Ubuntu 16.04 which GCP provides has `
 Clone the application repo into the home directory of `integration-user` user:
 
 ```bash
-$ git clone https://github.com/GaabsDev/integration.git
+$ git clone https://github.com/GaabsDev/layers.git
 ```
 
 Install application dependencies using Bundler:

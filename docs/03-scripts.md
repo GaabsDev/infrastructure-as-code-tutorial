@@ -1,6 +1,6 @@
 # Scripts
 
-In the previous lab, you deployed the [integration](https://github.com/GaabsDev/integration) application by connecting to a VM via SSH and running commands in the terminal one by one. In this lab, we'll try to automate this process a little by using `scripts`.
+In the previous lab, you deployed the [integration](https://github.com/GaabsDev/layers) application by connecting to a VM via SSH and running commands in the terminal one by one. In this lab, we'll try to automate this process a little by using `scripts`.
 
 ## Intro
 
@@ -91,7 +91,7 @@ Save it into `deploy.sh` file inside `scripts` directory:
 set -e
 
 echo "  ----- clone application repository -----  "
-git clone https://github.com/GaabsDev/integration.git
+git clone https://github.com/GaabsDev/layers.git
 
 echo "  ----- install dependent gems -----  "
 cd ./integration

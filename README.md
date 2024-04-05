@@ -23,7 +23,6 @@ Also, note that some of things need to be updated in several different repositor
 
 * https://github.com/GaabsDev/infrastructure-as-code-tutorial
 * https://github.com/GaabsDev/infrastructure-as-code-tutorial
-* https://github.com/GaabsDev/integration
 
 ## Target Audience
 
